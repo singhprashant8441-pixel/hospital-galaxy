@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- ================= SEO (edit the text below if hospital details change) ================= -->
+  <title>SR Galaxy Hospital, Lucknow | ICU, NICU, HDU, Dialysis near SGPGI</title>
+  <meta name="description" content="SR Galaxy Hospital, Jagat Khera Road, Kalli Paschim, near SGPGI, Lucknow. ICU, NICU, HDU, ventilator support, C-Arm and dialysis facilities. Call 9161488999 or 8467890270.">
+  <meta name="keywords" content="SR Galaxy Hospital, hospital in Lucknow, hospital near SGPGI, ICU Lucknow, NICU Lucknow, HDU, dialysis Lucknow, ventilator, C-Arm, Kalli Paschim, Jagat Khera Road">
+  <meta name="author" content="SR Galaxy Hospital">
+  <meta name="theme-color" content="#24A69A">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="SR Galaxy Hospital, Lucknow">
+  <meta property="og:description" content="Compassionate care with ICU, NICU, HDU, ventilator, C-Arm and dialysis facilities, near SGPGI, Lucknow.">
+  <meta property="og:image" content="assets/hero.jpg">
+  <meta property="og:locale" content="en_IN">
+  <meta property="og:site_name" content="SR Galaxy Hospital">
+  <!-- After you buy a domain, add:  <meta property="og:url" content="https://your-domain.com/">  and use full image URLs -->
+
+  <link rel="icon" href="assets/logo.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Structured data: only details verified from the visiting card -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Hospital",
+    "name": "SR Galaxy Hospital",
+    "image": "assets/hero.jpg",
+    "telephone": ["+919161488999", "+918467890270"],
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Jagat Khera Road, Kalli Paschim, Near SGPGI",
+      "addressLocality": "Lucknow",
+      "addressRegion": "Uttar Pradesh",
+      "addressCountry": "IN"
+    },
+    "employee": { "@type": "Person", "name": "Dr. Rakesh Singh Rajput", "jobTitle": "Director" }
+  }
+  </script>
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ================= A. NAVIGATION ================= -->
+  <header class="site-header" id="top">
+    <nav class="container nav" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="SR Galaxy Hospital home">
+        <img class="js-logo brand-logo" src="assets/logo.png" alt="SR Galaxy Hospital logo" width="48" height="48">
+        <span class="brand-text">
+          <strong data-bind="hospital.name">SR Galaxy Hospital</strong>
+          <small data-bind="hospital.tagline">Lucknow</small>
+        </span>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#facilities">Facilities</a></li>
+        <li><a href="#leadership">Doctors / Leadership</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a class="btn btn-primary btn-sm" href="#appointment">Book Appointment</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <!-- ================= B. HERO ================= -->
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow" data-bind="hero.eyebrow">Near SGPGI, Lucknow</p>
+          <h1 data-bind="hero.headline">Compassionate Care. Better Health. Brighter Tomorrow.</h1>
+          <p class="lead" data-bind="hero.subtext">Committed to patient care, advanced medical facilities and a healthier community.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#appointment">Book Appointment</a>
+            <a class="btn btn-outline js-call-primary" href="tel:+919161488999">
+              <svg class="ico" aria-hidden="true" data-icon="phone"></svg> Call Now
+            </a>
+          </div>
+          <p class="hero-intro" data-bind="hero.intro">SR Galaxy Hospital is a patient-first hospital in Lucknow, offering critical-care facilities close to SGPGI.</p>
+        </div>
+        <div class="hero-visual" id="heroVisual"><!-- image injected by script.js --></div>
+      </div>
+    </section>
+
+    <!-- ================= C. ABOUT ================= -->
+    <section class="section alt" id="about">
+      <div class="container about-grid">
+        <div>
+          <p class="eyebrow">About Us</p>
+          <h2 data-bind="about.title">About SR Galaxy Hospital</h2>
+        </div>
+        <div id="aboutBody" class="about-body"><!-- paragraphs injected --></div>
+      </div>
+    </section>
+
+    <!-- ================= D. FACILITIES ================= -->
+    <section class="section" id="facilities">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow">Our Facilities</p>
+          <h2 data-bind="facilitiesSection.title">Critical-care facilities under one roof</h2>
+          <p data-bind="facilitiesSection.intro">Please call the hospital to confirm availability and details for your situation.</p>
+        </header>
+        <div class="card-grid" id="facilitiesGrid"><!-- cards injected --></div>
+      </div>
+    </section>
+
+    <!-- ================= E. DIRECTOR ================= -->
+    <section class="section alt" id="leadership">
+      <div class="container director-grid">
+        <div class="director-photo" id="directorPhoto"><!-- photo injected --></div>
+        <div>
+          <p class="eyebrow">Leadership</p>
+          <h2>Director's Message</h2>
+          <div id="directorMessage" class="director-message"><!-- paragraphs injected --></div>
+          <p class="director-name"><strong data-bind="director.name">Dr. Rakesh Singh Rajput</strong><br>
+            <span data-bind="director.title">Director, SR Galaxy Hospital</span></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= F. WHY CHOOSE US ================= -->
+    <section class="section" id="why">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow">Why Choose Us</p>
+          <h2>Care built around the patient</h2>
+        </header>
+        <div class="why-grid" id="whyGrid"><!-- injected --></div>
+      </div>
+    </section>
+
+    <!-- ================= G. GALLERY ================= -->
+    <section class="section alt" id="gallery">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow">Gallery</p>
+          <h2>A look inside the hospital</h2>
+        </header>
+        <div class="gallery-grid" id="galleryGrid"><!-- injected --></div>
+      </div>
+    </section>
+
+    <!-- ================= H. APPOINTMENT ================= -->
+    <section class="section" id="appointment">
+      <div class="container appt-grid">
+        <div>
+          <p class="eyebrow">Appointment Request</p>
+          <h2>Request an appointment</h2>
+          <p>Fill in the form and the hospital team will need to contact you to confirm. <strong>Submitting this form does not confirm an appointment.</strong></p>
+          <p class="note">For emergencies, please call the hospital directly:</p>
+          <div class="phone-list js-phone-list"></div>
+        </div>
+
+        <form class="form-card" id="appointmentForm" novalidate
+              action="" method="post" data-endpoint="">
+          <!-- BACKEND READY: set appointment.endpoint in script.js (or the action attribute) -->
+          <div class="field">
+            <label for="apName">Patient Name <span class="req">*</span></label>
+            <input id="apName" name="patient_name" type="text" autocomplete="name" required>
+            <span class="error" data-error-for="apName"></span>
+          </div>
+          <div class="field-row">
+            <div class="field">
+              <label for="apPhone">Mobile Number <span class="req">*</span></label>
+              <input id="apPhone" name="mobile" type="tel" inputmode="numeric" autocomplete="tel" placeholder="10-digit number" required>
+              <span class="error" data-error-for="apPhone"></span>
+            </div>
+            <div class="field">
+              <label for="apEmail">Email <small>(optional)</small></label>
+              <input id="apEmail" name="email" type="email" autocomplete="email">
+              <span class="error" data-error-for="apEmail"></span>
+            </div>
+          </div>
+          <div class="field-row">
+            <div class="field">
+              <label for="apDate">Preferred Date <span class="req">*</span></label>
+              <input id="apDate" name="preferred_date" type="date" required>
+              <span class="error" data-error-for="apDate"></span>
+            </div>
+            <div class="field">
+              <label for="apDept">Department / Service <span class="req">*</span></label>
+              <select id="apDept" name="department" required></select>
+              <span class="error" data-error-for="apDept"></span>
+            </div>
+          </div>
+          <div class="field">
+            <label for="apMsg">Message</label>
+            <textarea id="apMsg" name="message" rows="3" maxlength="500"></textarea>
+          </div>
+          <button class="btn btn-primary btn-block" type="submit">Send Appointment Request</button>
+          <div class="form-status" id="appointmentStatus" role="status" aria-live="polite"></div>
+        </form>
+      </div>
+    </section>
+
+    <!-- ================= I. CONTACT ================= -->
+    <section class="section alt" id="contact">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow">Contact</p>
+          <h2>Get in touch</h2>
+        </header>
+        <div class="contact-grid">
+          <div class="contact-info">
+            <div class="info-card">
+              <svg class="ico" aria-hidden="true" data-icon="pin"></svg>
+              <div>
+                <h3 data-bind="hospital.name">SR Galaxy Hospital</h3>
+                <address data-bind="hospital.addressDisplay">Jagat Khera Road, Kalli Paschim, Near SGPGI, Lucknow.</address>
+                <a class="text-link js-maps-link" href="#" target="_blank" rel="noopener">Open in Google Maps &rarr;</a>
+              </div>
+            </div>
+            <div class="info-card">
+              <svg class="ico" aria-hidden="true" data-icon="phone"></svg>
+              <div>
+                <h3>Phone</h3>
+                <div class="phone-list js-phone-list"></div>
+              </div>
+            </div>
+            <div class="map-box" id="mapBox"><!-- map embed or placeholder --></div>
+          </div>
+
+          <form class="form-card" id="contactForm" novalidate action="" method="post" data-endpoint="">
+            <h3>Send us a message</h3>
+            <div class="field">
+              <label for="ctName">Your Name <span class="req">*</span></label>
+              <input id="ctName" name="name" type="text" autocomplete="name" required>
+              <span class="error" data-error-for="ctName"></span>
+            </div>
+            <div class="field">
+              <label for="ctPhone">Mobile Number <span class="req">*</span></label>
+              <input id="ctPhone" name="mobile" type="tel" inputmode="numeric" autocomplete="tel" required>
+              <span class="error" data-error-for="ctPhone"></span>
+            </div>
+            <div class="field">
+              <label for="ctMsg">Message <span class="req">*</span></label>
+              <textarea id="ctMsg" name="message" rows="4" maxlength="500" required></textarea>
+              <span class="error" data-error-for="ctMsg"></span>
+            </div>
+            <button class="btn btn-primary btn-block" type="submit">Send Message</button>
+            <div class="form-status" id="contactStatus" role="status" aria-live="polite"></div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= J. FOOTER ================= -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="footer-brand">
+          <img class="js-logo" src="assets/logo.png" alt="SR Galaxy Hospital logo" width="44" height="44">
+          <strong data-bind="hospital.name">SR Galaxy Hospital</strong>
+        </div>
+        <p data-bind="footer.blurb">Compassionate care, close to SGPGI, Lucknow.</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#facilities">Facilities</a></li>
+          <li><a href="#leadership">Leadership</a></li>
+          <li><a href="#appointment">Book Appointment</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <div class="phone-list js-phone-list"></div>
+        <address data-bind="hospital.addressDisplay">Jagat Khera Road, Kalli Paschim, Near SGPGI, Lucknow.</address>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span>&copy; <span id="year"></span> <span data-bind="hospital.name">SR Galaxy Hospital</span>. All rights reserved.</span>
+      <a href="#privacy" id="privacyLink">Privacy Policy</a>
+    </div>
+  </footer>
+
+  <!-- Privacy policy placeholder (replace with your real policy text or page) -->
+  <dialog id="privacyDialog" class="dialog">
+    <h3>Privacy Policy</h3>
+    <p data-bind="footer.privacyText">Privacy policy placeholder. Add your policy text here before launching the website.</p>
+    <button class="btn btn-primary btn-sm" id="privacyClose" type="button">Close</button>
+  </dialog>
+
+  <!-- Floating call button (mobile only) -->
+  <a class="float-call js-call-primary" href="tel:+919161488999" aria-label="Call SR Galaxy Hospital">
+    <svg class="ico" aria-hidden="true" data-icon="phone"></svg>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
